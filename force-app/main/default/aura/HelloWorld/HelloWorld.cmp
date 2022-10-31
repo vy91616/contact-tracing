@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <lightning:card footer="Card Footer" title="Hello"> 
+        <p class="slds-p-horizontal_small">
+            This is new component 
+            <!-- Brand-outline variant: Identifies the primary action in a group of buttons, but has a lighter look -->
+            <lightning:button variant="brand-outline" label="Brand Outline" title="Brand action" />
+        </p>
+    </lightning:card>
+</aura:component>	
